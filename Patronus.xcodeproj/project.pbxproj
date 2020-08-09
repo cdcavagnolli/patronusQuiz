@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9551584724D58F5200B43D75 /* flame.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9551584624D58F5200B43D75 /* flame.mov */; };
+		9551585324D6D9EB00B43D75 /* splashBackgound.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9551585224D6D9EB00B43D75 /* splashBackgound.mov */; };
+		9551585524D6E19300B43D75 /* startBackground.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9551585424D6E19300B43D75 /* startBackground.mov */; };
+		9579613924CE7C7D00846283 /* PatronoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9579613824CE7C7D00846283 /* PatronoResultView.swift */; };
+		9579613B24CE7CF400846283 /* PatronusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9579613A24CE7CF400846283 /* PatronusController.swift */; };
+		95D11BE024CDD049008DC14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BDF24CDD049008DC14C /* AppDelegate.swift */; };
+		95D11BE224CDD049008DC14C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BE124CDD049008DC14C /* SceneDelegate.swift */; };
+		95D11BE424CDD049008DC14C /* PatronoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BE324CDD049008DC14C /* PatronoViewController.swift */; };
+		95D11BE724CDD049008DC14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D11BE524CDD049008DC14C /* Main.storyboard */; };
+		95D11BE924CDD04F008DC14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D11BE824CDD04F008DC14C /* Assets.xcassets */; };
+		95D11BEC24CDD04F008DC14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D11BEA24CDD04F008DC14C /* LaunchScreen.storyboard */; };
+		95D11BF724CDD182008DC14C /* PatronusAnswersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BF624CDD182008DC14C /* PatronusAnswersModel.swift */; };
+		95D11BFA24CDD26E008DC14C /* PatronusResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BF924CDD26E008DC14C /* PatronusResults.swift */; };
+		95D11C0024CDD3F1008DC14C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11BFF24CDD3F1008DC14C /* ButtonView.swift */; };
+		95D11C0224CDD41F008DC14C /* PatronoStartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0124CDD41F008DC14C /* PatronoStartModel.swift */; };
+		95D11C0424CDD4A1008DC14C /* PatronusResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0324CDD4A1008DC14C /* PatronusResultModel.swift */; };
+		95D11C0624CDD67F008DC14C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0524CDD67F008DC14C /* Constants.swift */; };
+		95D11C0824CDD811008DC14C /* ButtonsSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0724CDD811008DC14C /* ButtonsSetView.swift */; };
+		95D11C0A24CDDD05008DC14C /* PatronoStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0924CDDD05008DC14C /* PatronoStartView.swift */; };
+		95D11C0C24CDDE79008DC14C /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0B24CDDE79008DC14C /* LabelView.swift */; };
+		95D11C0E24CE14BA008DC14C /* PatronusAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D11C0D24CE14BA008DC14C /* PatronusAnswers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9551584624D58F5200B43D75 /* flame.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = flame.mov; sourceTree = "<group>"; };
+		9551585224D6D9EB00B43D75 /* splashBackgound.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = splashBackgound.mov; sourceTree = "<group>"; };
+		9551585424D6E19300B43D75 /* startBackground.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = startBackground.mov; sourceTree = "<group>"; };
+		9579613824CE7C7D00846283 /* PatronoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronoResultView.swift; sourceTree = "<group>"; };
+		9579613A24CE7CF400846283 /* PatronusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PatronusController.swift; path = Patrono/Views/PatronusController.swift; sourceTree = SOURCE_ROOT; };
+		95D11BDC24CDD049008DC14C /* Patronus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patronus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D11BDF24CDD049008DC14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95D11BE124CDD049008DC14C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95D11BE324CDD049008DC14C /* PatronoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronoViewController.swift; sourceTree = "<group>"; };
+		95D11BE624CDD049008DC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95D11BE824CDD04F008DC14C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95D11BEB24CDD04F008DC14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95D11BED24CDD04F008DC14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D11BF624CDD182008DC14C /* PatronusAnswersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronusAnswersModel.swift; sourceTree = "<group>"; };
+		95D11BF924CDD26E008DC14C /* PatronusResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronusResults.swift; sourceTree = "<group>"; };
+		95D11BFF24CDD3F1008DC14C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		95D11C0124CDD41F008DC14C /* PatronoStartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronoStartModel.swift; sourceTree = "<group>"; };
+		95D11C0324CDD4A1008DC14C /* PatronusResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronusResultModel.swift; sourceTree = "<group>"; };
+		95D11C0524CDD67F008DC14C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95D11C0724CDD811008DC14C /* ButtonsSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsSetView.swift; sourceTree = "<group>"; };
+		95D11C0924CDDD05008DC14C /* PatronoStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronoStartView.swift; sourceTree = "<group>"; };
+		95D11C0B24CDDE79008DC14C /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		95D11C0D24CE14BA008DC14C /* PatronusAnswers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatronusAnswers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95D11BD924CDD049008DC14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95D11BD324CDD049008DC14C = {
+			isa = PBXGroup;
+			children = (
+				95D11BDE24CDD049008DC14C /* Patrono */,
+				95D11BDD24CDD049008DC14C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95D11BDD24CDD049008DC14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BDC24CDD049008DC14C /* Patronus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95D11BDE24CDD049008DC14C /* Patrono */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BED24CDD04F008DC14C /* Info.plist */,
+				95D11BDF24CDD049008DC14C /* AppDelegate.swift */,
+				95D11BE124CDD049008DC14C /* SceneDelegate.swift */,
+				95D11BE524CDD049008DC14C /* Main.storyboard */,
+				95D11BEA24CDD04F008DC14C /* LaunchScreen.storyboard */,
+				95D11BF324CDD060008DC14C /* Models */,
+				95D11BF524CDD088008DC14C /* ViewController */,
+				95D11BF424CDD07E008DC14C /* Views */,
+				95D11BFD24CDD30F008DC14C /* Controller */,
+				95D11BF824CDD23D008DC14C /* Resources */,
+			);
+			path = Patrono;
+			sourceTree = "<group>";
+		};
+		95D11BF324CDD060008DC14C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BF624CDD182008DC14C /* PatronusAnswersModel.swift */,
+				95D11C0124CDD41F008DC14C /* PatronoStartModel.swift */,
+				95D11C0324CDD4A1008DC14C /* PatronusResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95D11BF424CDD07E008DC14C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BFF24CDD3F1008DC14C /* ButtonView.swift */,
+				95D11C0B24CDDE79008DC14C /* LabelView.swift */,
+				95D11C0724CDD811008DC14C /* ButtonsSetView.swift */,
+				95D11C0924CDDD05008DC14C /* PatronoStartView.swift */,
+				9579613824CE7C7D00846283 /* PatronoResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95D11BF524CDD088008DC14C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BE324CDD049008DC14C /* PatronoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		95D11BF824CDD23D008DC14C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95D11BF924CDD26E008DC14C /* PatronusResults.swift */,
+				95D11C0D24CE14BA008DC14C /* PatronusAnswers.swift */,
+				95D11C0524CDD67F008DC14C /* Constants.swift */,
+				95D11BE824CDD04F008DC14C /* Assets.xcassets */,
+				9551585224D6D9EB00B43D75 /* splashBackgound.mov */,
+				9551585424D6E19300B43D75 /* startBackground.mov */,
+				9551584624D58F5200B43D75 /* flame.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95D11BFD24CDD30F008DC14C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9579613A24CE7CF400846283 /* PatronusController.swift */,
+			);
+			name = Controller;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95D11BDB24CDD049008DC14C /* Patronus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D11BF024CDD04F008DC14C /* Build configuration list for PBXNativeTarget "Patronus" */;
+			buildPhases = (
+				95D11BD824CDD049008DC14C /* Sources */,
+				95D11BD924CDD049008DC14C /* Frameworks */,
+				95D11BDA24CDD049008DC14C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patronus;
+			productName = Patrono;
+			productReference = 95D11BDC24CDD049008DC14C /* Patronus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D11BD424CDD049008DC14C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Cintia Cavagnolli";
+				TargetAttributes = {
+					95D11BDB24CDD049008DC14C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 95D11BD724CDD049008DC14C /* Build configuration list for PBXProject "Patronus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95D11BD324CDD049008DC14C;
+			productRefGroup = 95D11BDD24CDD049008DC14C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95D11BDB24CDD049008DC14C /* Patronus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D11BDA24CDD049008DC14C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D11BEC24CDD04F008DC14C /* LaunchScreen.storyboard in Resources */,
+				95D11BE924CDD04F008DC14C /* Assets.xcassets in Resources */,
+				9551585324D6D9EB00B43D75 /* splashBackgound.mov in Resources */,
+				95D11BE724CDD049008DC14C /* Main.storyboard in Resources */,
+				9551584724D58F5200B43D75 /* flame.mov in Resources */,
+				9551585524D6E19300B43D75 /* startBackground.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D11BD824CDD049008DC14C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D11BFA24CDD26E008DC14C /* PatronusResults.swift in Sources */,
+				95D11C0A24CDDD05008DC14C /* PatronoStartView.swift in Sources */,
+				95D11BE424CDD049008DC14C /* PatronoViewController.swift in Sources */,
+				95D11BF724CDD182008DC14C /* PatronusAnswersModel.swift in Sources */,
+				95D11BE024CDD049008DC14C /* AppDelegate.swift in Sources */,
+				95D11C0824CDD811008DC14C /* ButtonsSetView.swift in Sources */,
+				95D11C0224CDD41F008DC14C /* PatronoStartModel.swift in Sources */,
+				95D11C0624CDD67F008DC14C /* Constants.swift in Sources */,
+				95D11C0424CDD4A1008DC14C /* PatronusResultModel.swift in Sources */,
+				9579613B24CE7CF400846283 /* PatronusController.swift in Sources */,
+				95D11C0E24CE14BA008DC14C /* PatronusAnswers.swift in Sources */,
+				95D11C0C24CDDE79008DC14C /* LabelView.swift in Sources */,
+				95D11BE224CDD049008DC14C /* SceneDelegate.swift in Sources */,
+				9579613924CE7C7D00846283 /* PatronoResultView.swift in Sources */,
+				95D11C0024CDD3F1008DC14C /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95D11BE524CDD049008DC14C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D11BE624CDD049008DC14C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95D11BEA24CDD04F008DC14C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95D11BEB24CDD04F008DC14C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95D11BEE24CDD04F008DC14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95D11BEF24CDD04F008DC14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D11BF124CDD04F008DC14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = Patrono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cintia.Patronus;
+				PRODUCT_NAME = Patronus;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95D11BF224CDD04F008DC14C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UY4P26N45M;
+				INFOPLIST_FILE = Patrono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cintia.Patronus;
+				PRODUCT_NAME = Patronus;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95D11BD724CDD049008DC14C /* Build configuration list for PBXProject "Patronus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D11BEE24CDD04F008DC14C /* Debug */,
+				95D11BEF24CDD04F008DC14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D11BF024CDD04F008DC14C /* Build configuration list for PBXNativeTarget "Patronus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D11BF124CDD04F008DC14C /* Debug */,
+				95D11BF224CDD04F008DC14C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D11BD424CDD049008DC14C /* Project object */;
+}
